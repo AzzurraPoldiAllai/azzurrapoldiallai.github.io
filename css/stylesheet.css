@@ -12,7 +12,11 @@
   margin-left: 45px;
   margin-right: auto;
   margin-top: 45px
-  }
+}
+
+.overview {
+  margin: 100px 0 0 200px;
+}
 
 
 .rundrum {
@@ -22,6 +26,7 @@
   	border-color: gray;
   	border-right-color: black;
   	border-bottom-color: black;
+    margin-top:500px;
   }
 
   #toplink {
@@ -42,6 +47,7 @@ a {
   text-align: center;
 }
 
+
 a:hover {
 	color: #d3d3d3;
 }
@@ -52,7 +58,7 @@ a:hover {
 	z-index: 1;
 	width: 97.5%;
 	height: 50px;
-	background-color: white;
+	background-color: rgba(255, 255, 255, 0.9);
 	margin-bottom: 10px;
 	font-family: Garamond;
   font-size: 10px;
@@ -60,7 +66,7 @@ a:hover {
 }
 
 .left {
-  position: relative;
+  position: fixed;
 	float: left;
 	margin-top: 50px;
 	width: 10%;
@@ -85,15 +91,52 @@ a:hover {
 }
 
 #footer {
-  position: ;
+  position: fixed; ;
   right: 0px;
   left: 0px;
   bottom: 0px;
-	height: 30px;
+	height: 40px;
   width: 100%;
 	background-color: white;
 	font-family: Garamond;
 	font-size: 14px;
 	text-align: center;
 	color: black;
+  padding-top: 15px;
+}
+
+.nav {
+  list-style: none;
+  text-align: left;;
+}
+
+.books {
+  position: relative;
+	float: right;
+  margin-top: 70px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+p {
+
+  text-align: left;
+
+}
+
+.photos {
+  position: relative;
+	float: right;
+  margin-top: 70px;
+  width: 80%;
+  margin-bottom: 50px;
+  margin-right: 60px;
+  margin-top: 50px;
+}
+
+.trittico {
+  display: inline;
+  width: 900px;
 }
