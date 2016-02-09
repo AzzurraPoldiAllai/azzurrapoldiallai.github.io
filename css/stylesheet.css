@@ -3,15 +3,7 @@
   margin-top: 100px;
 }
 
-
-.wrapper {
-  width: 800px;
-  margin-left: 45px;
-  margin-right: auto;
-  margin-top: 45px
-}
-
-.rundrum {
+.line1 {
   	background-color: lightgray;
   	border-width: 6px;
   	border-style: solid;
@@ -32,15 +24,12 @@
   position: fixed;
 }
 
-
-
 a {
 	text-decoration: none;
 	font-family: Garamond, serif;
   color: black;
   text-align: center;
 }
-
 
 a:hover {
 	color: #d3d3d3;
@@ -63,19 +52,16 @@ a:hover {
 	float: left;
 	margin-top: 50px;
 	width: 10%;
-	height: 400px;
+	height: 100%px;
 	background-color: white;
 	margin-bottom: 10px;
   padding: 20px 20px 20px 20px;
 }
 
-
-
 .right {
 	position: relative;
 	float: center;
 	margin-top: 50px;
-	width: 100%;
 	height: 100%;
 	background-color: white;
 	margin-bottom: 10px;
@@ -84,14 +70,11 @@ a:hover {
 }
 
 .inline{
-  display: flex;;
+  display: flex;
   flex-direction: row;
   height: 50%;
-
 }
- .inline image {
-   margin: 10px;
- }
+
 
 #footer {
   position: fixed;
@@ -110,10 +93,10 @@ a:hover {
 
 .nav {
   list-style: none;
-  text-align: left;;
+  text-align: left;
 }
 
-.books {
+.books{
   position: relative;
 	float: right;
   margin-top: 70px;
@@ -121,21 +104,41 @@ a:hover {
   margin-bottom: 50px;
   margin-right: 60px;
   margin-top: 50px;
-}
-
-p {
-
-  text-align: left;
-  margin-top: 100px;
-
 }
 
 .photos {
-  position: relative;
-	float: right;
-  margin-top: 70px;
-  width: 80%;
-  margin-bottom: 50px;
-  margin-right: 60px;
-  margin-top: 50px;
+position: relative;
+float: right;
+margin-top: 70px;
+width: 80%;
+margin-bottom: 50px;
+margin-right: 60px;
+margin-top: 50px;
+}
+
+p {
+  text-align: left;
+  margin-top: 100px;
+}
+
+#rotate {
+ transition: transform 0.7s;
+}
+
+#rotate:hover {
+ transform: rotate(360deg);
+}
+#io {
+ transition: transform 0.7s;
+}
+
+#io:hover {
+ transform: scale(2.5, 2.5);
+}
+#translate {
+ transition: transform 0.7s;
+}
+
+#translate:hover {
+ transform: translate(130px, 0px);
 }
