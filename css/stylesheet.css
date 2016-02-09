@@ -1,6 +1,7 @@
 .image {
-  width: 100%;
+  width: 90%;
   margin-top: 100px;
+  text-align: center;
 }
 
 .line1 {
@@ -62,6 +63,7 @@ a:hover {
 	position: relative;
 	float: center;
 	margin-top: 50px;
+  margin-left: 200px;
 	height: 100%;
 	background-color: white;
 	margin-bottom: 10px;
@@ -140,5 +142,5 @@ p {
 }
 
 #translate:hover {
- transform: translate(130px, 0px);
+ transform: translate(500px, 0px);
 }
