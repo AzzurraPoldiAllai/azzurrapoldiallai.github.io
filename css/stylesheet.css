@@ -9,6 +9,13 @@ h1 {
 
 }
 
+p{
+  font-family: 'Roboto', sans-serif;
+}
+
+#books {
+  font-family: Garamond;
+}
 .line1 {
   	background-color: lightgray;
   	border-width: 6px;
