@@ -152,7 +152,7 @@ p {
 }
 
 #scale:hover {
-   transform: scale(1.5, 1.5);
+   transform: scale(0.9, 0.9);
 }
 
 .opacity {
@@ -161,4 +161,11 @@ p {
 
 .opacity:hover {
  filter: opacity(30%);
+}
+#scaleout {
+   transition: transform 0.7s;
+}
+
+#scaleout:hover {
+   transform: scale(1.1, 1.1);
 }
