@@ -1,3 +1,7 @@
+h1 {
+  font-family: 'Vollkorn', serif;
+}
+
 .image {
   width: 90%;
   margin-top: 100px;
@@ -28,9 +32,10 @@
 
 a {
 	text-decoration: none;
-	font-family: Garamond, serif;
-  color: black;
+  font-family: Garamond;
   text-align: center;
+  color: black;
+
 }
 
 a:hover {
@@ -44,8 +49,7 @@ a:hover {
 	height: 50px;
 	background-color: rgba(255, 255, 255, 0.9);
 	margin-bottom: 10px;
-	font-family: Garamond;
-  font-size: 10px;
+  font-family: 'Vollkorn', serif;  font-size: 10px;
 	text-align: center;
 }
 
