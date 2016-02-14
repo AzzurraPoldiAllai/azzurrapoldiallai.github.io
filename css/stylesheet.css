@@ -145,11 +145,7 @@ p {
 #translate:hover {
  transform: translate(500px, 0px);
 }
-* {
-  border-width: 1px;
-  border-style: solid;
-  border-color: black;
-}
+
 
 #scale {
    transition: transform 0.7s;
