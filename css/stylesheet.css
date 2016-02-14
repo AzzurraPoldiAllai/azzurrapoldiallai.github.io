@@ -150,3 +150,19 @@ p {
   border-style: solid;
   border-color: black;
 }
+
+#scale {
+   transition: transform 0.7s;
+}
+
+#scale:hover {
+   transform: scale(1.5, 1.5);
+}
+
+.opacity {
+ transition: filter 0.9s;
+}
+
+.opacity:hover {
+ filter: opacity(30%);
+}
