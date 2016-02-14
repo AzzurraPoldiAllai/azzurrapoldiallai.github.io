@@ -169,3 +169,16 @@ p {
 #scaleout:hover {
    transform: scale(1.1, 1.1);
 }
+
+.about {
+  color: white;
+  border-width: 6px;
+  border-style: solid;
+  border-color: gray;
+  border-right-color: black;
+  border-bottom-color: black;
+  width: 500px;
+  height: 500px;
+  margin-top: 50px;
+  margin-left: 50px;
+}
