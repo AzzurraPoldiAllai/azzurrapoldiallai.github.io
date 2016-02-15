@@ -180,6 +180,9 @@ p {
 
   li {
   display: inline;
+  border-width: 1px;
+  border-color: black;
+  border-style: solid;
   }
   ul {
       position: fixed;
@@ -187,6 +190,7 @@ p {
       width: 100%;
       margin-top: 70px;
       clear: right;
+
   }
 
   .books {
@@ -197,5 +201,9 @@ p {
   }
   .right {
     margin-top: 80px;
+  }
+
+  .header{
+    margin-top: 0px;
   }
 }
