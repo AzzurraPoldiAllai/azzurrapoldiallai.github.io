@@ -1,0 +1,90 @@
+<script type=”text/javascript” src=”http://code.jquery.com/jquery-latest.js”></script>
+
+<script type=”text/javascript”>
+
+$(document).ready(function(){
+
+
+$(“#flipthepage”).hover(function() {
+
+$(“#flipthepage img , .msg_block”).stop()
+
+.animate({
+
+width: ‘307px’,
+
+height: ‘319px’
+
+}, 500);
+
+} , function() {
+
+$(“#flipthepage img”).stop()
+
+.animate({
+
+width: ’50px’,
+
+height: ’52px’
+
+}, 220);
+
+$(“.msg_block”).stop()
+
+.animate({
+
+width: ’50px’,
+
+height: ’50px’
+
+}, 200);
+
+});
+
+});
+
+</script>
+
+<style type=”text/css”>
+
+img { behavior: url(iepngfix.htc) }
+
+#flipthepage {
+
+position: relative;
+
+right: 0; top: 0;
+
+float: right;
+
+}
+
+#flipthepage img {
+
+width: 50px; height: 52px;
+
+z-index: 99;
+
+position: absolute;
+
+right: 0; top: 0;
+
+-ms-interpolation-mode: bicubic;
+
+}
+
+#flipthepage .msg_block {
+
+width: 50px; height: 50px;
+
+overflow: hidden;
+
+position: absolute;
+
+right: 0; top: 0;
+
+background: url () no-repeatright top;
+
+}
+
+</style>
