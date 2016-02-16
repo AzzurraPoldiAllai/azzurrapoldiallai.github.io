@@ -6,7 +6,6 @@ h1 {
   width: 90%;
   margin-top: 100px;
   margin-left: 33px;
-
 }
 
 p{
@@ -16,6 +15,7 @@ p{
 .garamond {
   font-family: Garamond;
 }
+
 .line1 {
   	background-color: lightgray;
   	border-width: 6px;
@@ -42,7 +42,6 @@ a {
   font-family: Garamond;
   text-align: center;
   color: black;
-
 }
 
 a:hover {
@@ -89,7 +88,6 @@ a:hover {
   height: 50%;
 }
 
-
 #footer {
   position: fixed;
   right: 0px;
@@ -110,7 +108,7 @@ a:hover {
   text-align: left;
 }
 
-.books{
+.books {
   position: relative;
 	float: right;
   margin-top: 70px;
@@ -157,7 +155,6 @@ p {
  transform: translate(500px, 0px);
 }
 
-
 #scale {
    transition: transform 0.7s;
 }
@@ -175,8 +172,6 @@ p {
 }
 
 @media only screen and (max-width: 375px) {
-
-
 
   li {
   display: inline;
@@ -200,10 +195,7 @@ p {
     margin-top: 120px;
   }
   .right {
-    margin-top: 80px;
+    margin-top: 120px;
   }
 
-  .header{
-    margin-top: 0px;
-  }
 }
